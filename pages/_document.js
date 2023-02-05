@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: 'Peter Reshetin personal site',
     description: 'Some facts about me. I may also share thoughts via posts.',
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+    image: 'https://github.com/preshetin/preshetin-com/blob/main/public/images/avatar-2015.jpg?raw=1'
   }
 
   return (
