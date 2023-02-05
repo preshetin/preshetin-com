@@ -3,7 +3,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
   const meta = {
     title: 'Peter Reshetin personal site',
-    description: 'Some facts about me. I may also share thoughts via posts.',
+    description: 'Hey, I\'m a freelance engineer from Minsk, Belarus. I may also share thoughts via posts.',
     image: 'https://github.com/preshetin/preshetin-com/blob/main/public/images/avatar-2015.jpg?raw=1'
   }
 
