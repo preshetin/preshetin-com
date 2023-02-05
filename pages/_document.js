@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: 'Peter Reshetin personal site',
     description: 'Hey, I\'m a freelance engineer from Minsk, Belarus. I may also share thoughts via posts.',
-    image: 'https://github.com/preshetin/preshetin-com/blob/main/public/images/avatar-2015.jpg?raw=1'
+    image: 'https://res.cloudinary.com/preshetin/image/upload/v1675588789/avatar-2015.jpg'
   }
 
   return (
