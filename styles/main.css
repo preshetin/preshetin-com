@@ -63,3 +63,8 @@ img.next-image {
 .nav-line .nav-link {
   color: #69778c;
 }
+
+.gif_player img {
+  border: 3px solid gray;
+  cursor: pointer;
+}
