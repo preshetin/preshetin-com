@@ -11,9 +11,27 @@ Here are some of my projects.
 import Image from 'next/image'
 import GifPlayer from '../components/GifPlayer'
 
-<GifPlayer gif="/images/mailchimp-link-demo.gif" still="/images/mailchimp-link-demo.jpg" />
+<GifPlayer
+  gif="/images/mailchimp-link-demo.gif"
+  still="/images/mailchimp-link-demo.jpg"
+  width={1900}
+  height={1456}
+/>
 
 Slack app that generates links for Mailchimp campaigns.
+
+<hr />
+
+<GifPlayer
+  gif="https://res.cloudinary.com/preshetin/image/upload/v1686317592/preshetin.com/dhamma-bot-demo_lowukc.gif"
+  still="https://res.cloudinary.com/preshetin/image/upload/v1686728698/preshetin.com/dhamma-bot-demo_akdntd.png"
+  width={620}
+  height={512}
+/>
+
+Utility app that helps syncing with YooKassa and build reports.
+
+[Github](https://github.com/ru-dhamma/donation-utils)
 
 <hr />
 
@@ -25,11 +43,9 @@ Slack app that generates links for Mailchimp campaigns.
   priority
   className="next-image"
 />
-
 Airtable extension that helps managing menu planning for Vipassana courses.
 
 [Github](https://github.com/preshetin/menu-constructor)
-
 <hr />
 
 <Image
@@ -40,12 +56,11 @@ Airtable extension that helps managing menu planning for Vipassana courses.
   priority
   className="next-image"
 />
-
 Miro app that creates sitting plan for Vipassana meditation course.
 
 [Github](https://github.com/preshetin/sitting-plan)
-
 <hr />
+
 <Image
   src="https://res.cloudinary.com/preshetin/image/upload/v1686317596/preshetin.com/slack-app-drebedengi_gvkbhx.gif"
   alt="Photo"

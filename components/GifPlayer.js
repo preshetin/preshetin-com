@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 
-const GifPlayer = ({ gif, still, ...rest }) => {
+const GifPlayer = ({ gif, still, width, height, ...rest }) => {
   const [isAnimated, setIsAnimated] = useState(false)
 
   const toggle = () => isAnimated ? setIsAnimated(false) : setIsAnimated(true)
@@ -13,7 +13,7 @@ const GifPlayer = ({ gif, still, ...rest }) => {
       onClick={toggle}
     >
       {/* <div className="play_button" /> */}
-      <Image width={1900} height={1456} {...rest} src={isAnimated ? (gif || still) : (still || gif)} />
+      <Image width={width} height={height} {...rest} src={isAnimated ? (gif || still) : (still || gif)} />
     </div>
   )
 }
