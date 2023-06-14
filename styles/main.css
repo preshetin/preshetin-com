@@ -68,3 +68,16 @@ img.next-image {
   border: 3px solid gray;
   cursor: pointer;
 }
+
+.play_button {
+    width: 50px;
+    height: 50px;
+    top: 40%;
+    left: 46%;
+    z-index: 1;
+    position: absolute;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 78px solid gray;
+}
+

@@ -9,10 +9,10 @@ const GifPlayer = ({ gif, still, width, height, ...rest }) => {
   return (
     <div
       // className={classNames('gif_player', { 'playing': playing })}
-      style={{ cursor: 'pointer', border: "3px solid gray"}}
+      style={{ cursor: 'pointer', position: 'relative', border: "3px solid gray"}}
       onClick={toggle}
     >
-      {/* <div className="play_button" /> */}
+      {!isAnimated && <div className="play_button" />}
       <Image width={width} height={height} {...rest} src={isAnimated ? (gif || still) : (still || gif)} />
     </div>
   )
