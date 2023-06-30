@@ -1,5 +1,5 @@
 ---
-title: Case Study: Migration from Google Sheets to Airtable
+title: Case Study - Migration from Google Sheets to Airtable
 date: 2023/6/01
 description: Learn more about Next.js pages.
 tag: case study
