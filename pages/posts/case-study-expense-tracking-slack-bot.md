@@ -36,5 +36,20 @@ Furthermore, the Slack bot offered a modal with a list of available features, ma
 
 The expense modal provided a user-friendly form for inputting expenses, making it easy for us to track expenditures efficiently.
 
-| ![Expense Modal](https://res.cloudinary.com/preshetin/image/upload/v1688108203/p
+| ![Expense Modal](https://res.cloudinary.com/preshetin/image/upload/v1688108203/preshetin.com/drebedengi-slack/expense-modal.png) | 
+|:--:| 
+| *The expense modal presents a form for inputting expenses, making it easy to track expenditures.* |
+
+## Project Success
+
+The implementation of the Slack bot brought significant success to our non-profit organization. We now save valuable time when adding financial data, as we no longer have to navigate to a separate website. The real-time tracking within Slack provides us with immediate visibility into our financial status. Moreover, the dedicated public channel enables better collaboration and knowledge sharing among team members, fostering transparency and accountability.
+
+**GitHub Repository**: [github.com/preshetin/drebedengi-slack](https://github.com/preshetin/drebedengi-slack)
+
+## Hire Me
+
+If you want to hire me to improve your team's efficiency by automating manual tasks, feel free to contact me at preshetin@gmail.com. I am passionate about creating custom solutions that enhance productivity and streamline workflows.
+
+Let's discuss your requirements and how I can contribute to your organization's success.
+
 
