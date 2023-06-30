@@ -18,11 +18,6 @@ Organising such a course involves meal and purchasing planning for about hundred
 
 The problem with Google Sheets was it did not provide flexibility when working with menu. For example, adding a new meal would involve manual formula tweaking in numerous places which is error-prone.
 
-![Initial solution built with Google Sheets](https://res.cloudinary.com/preshetin/image/upload/v1688101501/preshetin.com/case-studies/meal-planning-0_2_medi06.png)
-*Google Sheets was used as initial solution. It lacked some flexibility*
-
-hey
-
 | ![Initial solution built with Google Sheets](https://res.cloudinary.com/preshetin/image/upload/v1688101501/preshetin.com/case-studies/meal-planning-0_2_medi06.png) | 
 |:--:| 
 | *Google Sheets was used as initial solution. It lacked some flexibility* |
