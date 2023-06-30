@@ -39,3 +39,8 @@ As part of the solution, custom Airtable extension was developed. This extension
 | ![I built custom Airtable extension](https://res.cloudinary.com/preshetin/image/upload/v1688102131/preshetin.com/case-studies/extension-pic_e4wteu.png) | 
 |:--:| 
 | *I built custom Airtable extension* |
+
+
+## Contact
+
+If you are interested in working with me just email me at preshetin@gmail.com
