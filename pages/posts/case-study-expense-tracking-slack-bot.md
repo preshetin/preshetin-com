@@ -3,6 +3,7 @@ title: Case Study - Slack Bot for Expense Tracking in a Non-Profit Organization
 date: 2023/2/12
 description: Case Study - Slack Bot for Expense Tracking in a Non-Profit Organization
 tag: case study
+thumbnailUrl: "https://res.cloudinary.com/preshetin/image/upload/v1688108203/preshetin.com/drebedengi-slack/expense-modal.png"
 author: Peter Reshetin
 ---
 
