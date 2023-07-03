@@ -1,8 +1,8 @@
 ---
 title: Case Study - Migration from Google Sheets to Airtable
 date: 2023/6/01
-description: Learn more about Next.js pages.
-thumbnailUrl: 
+description: Learn how an Airtable and custom extension implementation improved meal planning for meditation courses, enhancing flexibility, streamlining processes, and reducing errors.
+thumbnailUrl: https://res.cloudinary.com/preshetin/image/upload/v1688101501/preshetin.com/case-studies/meal-planning-1_vitsdr.png
 tag: case study
 author: You
 ---
