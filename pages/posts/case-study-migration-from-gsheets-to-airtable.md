@@ -34,12 +34,11 @@ My key contributions to the project included:
 ### Skills and Deliverables
 Skills and tools used:
 
-- Google Sheets
-- Migration
-- TypeScript
-- Database Design
-- React
-- Airtable
+- Database Design: Creating a structured and efficient Airtable database.
+- Google Sheets: Understanding the limitations and challenges of the existing system.
+- Airtable: Leveraging the database platform to enhance the meal and purchasing planning process.
+- Migration: Transferring data and functionalities from Google Sheets to Airtable.
+- TypeScript / React: Programming language used for developing the custom Airtable extension.
 
 | ![Airtable Extension](https://res.cloudinary.com/preshetin/image/upload/v1688102131/preshetin.com/case-studies/extension-pic_e4wteu.png) |
 |:--:|
