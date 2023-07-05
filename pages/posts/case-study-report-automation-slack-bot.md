@@ -7,8 +7,6 @@ thumbnailUrl: "https://res.cloudinary.com/preshetin/image/upload/v1688580534/pre
 author: Peter Reshetin
 ---
 
-
-
 # Case Study: Automating Financial Reports for a Non-Profit Organization
 
 ## Client's Goal
