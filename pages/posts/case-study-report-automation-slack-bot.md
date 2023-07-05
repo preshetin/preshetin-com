@@ -1,3 +1,14 @@
+---
+title: "Case Study: Automating Financial Reports for a Non-Profit Organization"
+date: 2023/4/01
+description: I successfully automated the monthly financial report for a non-profit organization by developing a custom application and integrating it with a Slack bot. The automated system significantly reduced manual work, saved time and resources, and improved data accuracy and report generation efficiency.
+tag: case study
+thumbnailUrl: "https://res.cloudinary.com/preshetin/image/upload/v1688580534/preshetin.com/case-studies/donation-utils-1_izxk42.png"
+author: Peter Reshetin
+---
+
+
+
 # Case Study: Automating Financial Reports for a Non-Profit Organization
 
 ## Client's Goal
@@ -10,13 +21,13 @@ During our discussions, we identified the need for database updates before gener
 
 | ![Screenshot of Slack conversation: Syncing CSV with Database](https://res.cloudinary.com/preshetin/image/upload/v1688580535/preshetin.com/case-studies/donation-utils-2_ptyr2i.png) | 
 |:--:| 
-| *Screenshot from Slack showing conversation between a user and the bot. The user sends a CSV file to the bot asking to sync it with the database. The bot replies with the sync result.* |
+| *Screenshot of Slack conversation: Syncing CSV with Database* |
 
 Once the database was updated, I implemented additional functionality within the Slack bot. Users could request a PDF report for a specific month by simply interacting with the bot. The bot would retrieve the relevant data and generate the report instantly.
 
 | ![Screenshot of Slack conversation: Generating PDF Report](https://res.cloudinary.com/preshetin/image/upload/v1688580534/preshetin.com/case-studies/donation-utils-1_izxk42.png) | 
 |:--:| 
-| *Screenshot from Slack showing conversation between a user and the bot. The user asks the bot to prepare the report for a specific date period. The bot replies with the generated PDF report.* |
+| *Screenshot of Slack conversation: Generating PDF Report* |
 
 ## Project Success
 The implementation of the automated system resulted in significant success for the non-profit organization. What previously took hours of manual work could now be completed within seconds. By automating the financial report generation process, the organization saved valuable time and resources, allowing their staff to focus on more critical tasks.
