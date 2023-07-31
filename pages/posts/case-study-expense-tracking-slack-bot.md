@@ -1,27 +1,56 @@
 ---
 title: "Case Study: Slack Bot for Expense Tracking in a Non-Profit Organization"
-date: 2023/7/31
-description: "Simplifying Vipassana seating plans with a Miro app. Overcoming Excel's limitations, the app adapts to various hall structures and offers name translations."
+date: 2023/2/12
+description: This case study presents the development of a Slack bot for a non-profit organization conducting meditation courses. It streamlined expense and income tracking within Slack, fostering transparency and collaboration. Explore productivity-enhancing automation solutions for your team.
 tag: case study
-thumbnailUrl: "https://res.cloudinary.com/preshetin/image/upload/v1690821106/preshetin.com/sitting-plan-miro/Sitting_Plan_23_tnerok.pdf"
+thumbnailUrl: "https://res.cloudinary.com/preshetin/image/upload/v1688108203/preshetin.com/drebedengi-slack/expense-modal.png"
 author: Peter Reshetin
 ---
 
-# Case Study: Simplifying Student Sitting Plans with a Miro App
+# Case Study: Slack Bot for Expense Tracking in a Non-Profit Organization
 
-I created a Miro app that helps with creating seating plans for Vipassana meditation courses. During my time as a manager for Vipassana courses, one of my responsibilities was to create a sitting plan for the students. This plan is essentially a sheet of paper with a scheme that determines where each student sits. Teachers and managers use this sitting plan to know the arrangement of students in the meditation hall.
+## Our Goal
 
-## Problem
+As a small group of organizers conducting Vipassana meditation courses in our local region in Minsk, Belarus, we wanted to streamline our financial tracking process and improve communication within our team. Our main objective was to eliminate the need for multiple tools and achieve real-time updates on expenses and income.
 
-Previously, an Excel spreadsheet was used to create the seating plan. While it served its purpose, it presented some challenges when changes were required. For instance, if the student scheme in the meditation hall changed (which could happen in non-standard meditation halls), the Excel file had to be manually updated. This involved changing formulas in multiple places. For instance, modifying the number of students per row required updating almost all formulas to fit the new hall structure.
+## Project Details and Contribution
 
-## Solution
+Previously, we used a bookkeeping tool called Drebedengi.ru to track donations and expenses, but it required us to visit a separate website, causing inconvenience and inefficiency. We also relied on Slack for team communication.
 
-To address this problem, I developed a small app based on the Miro workspace. This app takes the list of students as input and allows easy configuration of the number of students sitting per row. Additionally, the app provides the option to translate student names into another language. This feature is particularly helpful for teachers who prefer having the seating plan in their native language.
+To address these challenges, I developed a Slack bot hosted on AWS Lambda. Written in TypeScript, the bot integrated with our Slack workspace and allowed us to track expenses and income directly within Slack. This eliminated the need for context switching and enhanced our workflow.
 
-I tested this app on a few courses a couple of months ago and can confirm that it makes creating seating plans much easier and more efficient.
+| ![Balance Modal](https://res.cloudinary.com/preshetin/image/upload/v1688108203/preshetin.com/drebedengi-slack/balance-modal.png) | 
+|:--:| 
+| *The balance modal provides an overview of where the donations are currently allocated.* |
 
-## Contact Me
+Additionally, I implemented a feature where users could share income or expense updates to a dedicated public channel, ensuring transparency and keeping the entire team informed about our current financial situation.
 
-If you're interested in adapting this app for your own courses or have any questions, please feel free to contact me via email at preshetin@gmail.com.
+| ![Public Channel](https://res.cloudinary.com/preshetin/image/upload/v1688108203/preshetin.com/drebedengi-slack/messages%20in%20public%20channel.png) | 
+|:--:| 
+| *Messages in the public channel allow everyone to stay updated on the financial transactions.* |
+
+Furthermore, the Slack bot offered a modal with a list of available features, making it convenient to access and utilize the various expense tracking functionalities.
+
+| ![Bot Modal](https://res.cloudinary.com/preshetin/image/upload/v1688108203/preshetin.com/drebedengi-slack/modal%20with%20list%20of%20buttons.png) | 
+|:--:| 
+| *The Slack bot modal displays a list of available features for tracking expenses and income.* |
+
+The expense modal provided a user-friendly form for inputting expenses, making it easy for us to track expenditures efficiently.
+
+| ![Expense Modal](https://res.cloudinary.com/preshetin/image/upload/v1688108203/preshetin.com/drebedengi-slack/expense-modal.png) | 
+|:--:| 
+| *The expense modal presents a form for inputting expenses, making it easy to track expenditures.* |
+
+## Project Success
+
+The implementation of the Slack bot brought significant success to our non-profit organization. We now save valuable time when adding financial data, as we no longer have to navigate to a separate website. The real-time tracking within Slack provides us with immediate visibility into our financial status. Moreover, the dedicated public channel enables better collaboration and knowledge sharing among team members, fostering transparency and accountability.
+
+**GitHub Repository**: [github.com/preshetin/drebedengi-slack](https://github.com/preshetin/drebedengi-slack)
+
+## Hire Me
+
+If you want to hire me to improve your team's efficiency by automating manual tasks, feel free to contact me at preshetin@gmail.com. I am passionate about creating custom solutions that enhance productivity and streamline workflows.
+
+Let's discuss your requirements and how I can contribute to your organization's success.
+
 
