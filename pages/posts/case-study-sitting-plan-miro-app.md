@@ -27,15 +27,13 @@ Previously, an Excel spreadsheet was used to create the seating plan. While it s
 
 To address this problem, I developed a small app based on the Miro workspace. This app takes the list of students as input and allows easy configuration of the number of students sitting per row. Additionally, the app provides the option to translate student names into another language. This feature is particularly helpful for teachers who prefer having the seating plan in their native language.
 
-| ![Example Sitting Plan Made with Miro App](https://res.cloudinary.com/preshetin/image/upload/v1690821106/preshetin.com/sitting-plan-miro/Sitting_Plan_23_tnerok.pdf) |
+| ![Miro App Screenshot](https://res.cloudinary.com/preshetin/image/upload/v1691053274/preshetin.com/sitting-plan-miro/app-screenshot-arr_r5xerd.jpg) |
 |:--:| 
-| *Example Sitting Plan Made with Miro App* |
+| *Miro App Screenshot That I Made* |
 
 I tested this app on a few courses a couple of months ago and can confirm that it makes creating seating plans much easier and more efficient.
 
-| ![Photo of Printed Sitting Plan Made with Miro App](https://res.cloudinary.com/preshetin/image/upload/v1690821106/preshetin.com/sitting-plan-miro/Sitting_Plan_23_tnerok.pdf) |
-|:--:| 
-| *Photo of Printed Sitting Plan Made with Miro App* |
+Here is [example PDF](https://res.cloudinary.com/preshetin/image/upload/v1690821106/preshetin.com/sitting-plan-miro/Sitting_Plan_23_tnerok.pdf)
 
 
 ## Contact Me
