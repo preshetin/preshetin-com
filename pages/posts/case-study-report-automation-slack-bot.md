@@ -2,7 +2,7 @@
 title: "Case Study: Automating Financial Reports for a Non-Profit Organization"
 date: 2023/4/01
 description: I successfully automated the monthly financial report for a non-profit organization by developing a custom application and integrating it with a Slack bot. The automated system significantly reduced manual work, saved time and resources, and improved data accuracy and report generation efficiency.
-tag: case study
+tag: case study, slack-bot
 thumbnailUrl: "https://res.cloudinary.com/preshetin/image/upload/v1688580534/preshetin.com/case-studies/donation-utils-1_izxk42.png"
 author: Peter Reshetin
 ---
