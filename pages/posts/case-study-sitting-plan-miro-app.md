@@ -3,7 +3,7 @@ title: "Case Study: Simplifying Student Seating Plans with a Miro App"
 date: 2023/7/31
 description: "Simplifying Vipassana seating plans with a Miro app. Overcoming Excel's limitations, the app adapts to various hall structures and offers name translations."
 tag: case study
-thumbnailUrl: "https://res.cloudinary.com/preshetin/image/upload/v1690821106/preshetin.com/sitting-plan-miro/Sitting_Plan_23_tnerok.pdf"
+thumbnailUrl: "https://res.cloudinary.com/preshetin/image/upload/v1691053274/preshetin.com/sitting-plan-miro/app-screenshot-arr_r5xerd.jpg"
 author: Peter Reshetin
 ---
 
