@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   const meta = {
-    title: 'Peter Reshetin's personal site',
+    title: 'Peter Reshetin\'s personal site',
     description: 'Hey, I\'m a freelance engineer from Minsk, Belarus. I may also share thoughts via posts.',
     // image: 'https://res.cloudinary.com/preshetin/image/upload/v1688111008/preshetin.com/avatars/2023-06-park-square.jpg'
   }
