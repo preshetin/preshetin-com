@@ -1,5 +1,5 @@
 ---
-title: "Кейс Airtable: Регистрация на выездное мероприятие с помощью Airtable"
+title: "Кейс: Регистрация на выездное мероприятие с помощью Airtable"
 date: 2023/10/30
 description: Я сделал Airtable-таблицы и интерфейсы для упрощения процесса регистрации на курсы медитации"
 tag: case study
@@ -7,7 +7,7 @@ thumbnailUrl: "https://res.cloudinary.com/preshetin/image/upload/v1700742086/pre
 author: Петр Решетин
 ---
 
-# Кейс Airtable: Регистрация на выездное мероприятие с помощью Airtable
+# Кейс: Регистрация на выездное мероприятие с помощью Airtable
 
 ![cover](https://res.cloudinary.com/preshetin/image/upload/v1700742086/preshetin.com/case-studies/airtable-cover_pjgcaq.png)
 
