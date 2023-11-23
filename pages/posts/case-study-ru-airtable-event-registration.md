@@ -1,10 +1,10 @@
 ---
 title: "Кейс Airtable: Регистрация на выездное мероприятие с помощью Airtable"
-date: 2023/11/21
+date: 2023/10/30
 description: Я сделал Airtable-таблицы и интерфейсы для упрощения процесса регистрации на курсы медитации"
 tag: case study
-thumbnailUrl: "https://res.cloudinary.com/preshetin/image/upload/v1700651530/preshetin.com/case-studies/werent-low-res_yg64z5.jpg"
-author: Peter Reshetin
+thumbnailUrl: "https://res.cloudinary.com/preshetin/image/upload/v1700738738/preshetin.com/case-studies/airtable-interface-males_pbxcra.png"
+author: Петр Решетин
 ---
 
 
@@ -40,6 +40,8 @@ author: Peter Reshetin
 Интерфейсы 
 - Мужчины и женищины регистриуются отдельно. Мужской и женский регистратов работают какжый со своим списком участников в интерфейсах *День 0 / Мужчины* и *День 0 / Женщины*
 - Организатор следит за процесом регистрации в интерфейсе *Сводная инфо / Прогресс регистрации*
+
+![Интерфейс Airtable для мужского регистратора](https://res.cloudinary.com/preshetin/image/upload/v1700738738/preshetin.com/case-studies/airtable-interface-males_pbxcra.png)
 
  ## Результаты
 
