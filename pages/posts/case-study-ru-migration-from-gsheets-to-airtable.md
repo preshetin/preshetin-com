@@ -7,6 +7,8 @@ tag: case study
 author: Петр Решетин
 ---
 
+![teaser](https://res.cloudinary.com/preshetin/image/upload/v1702906736/preshetin.com/case-studies/meals-and-purchasing/meals-and-purchasing-teaser_dx0pew.png)
+
 # Airtable в общепите: планирование меню и закупок
 
 ## О проекте
