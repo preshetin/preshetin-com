@@ -1,5 +1,5 @@
 ---
-title: "Airtable в общепите: планирование меню и закупок"
+title: "Low-Code в общепите: планирование меню и закупок"
 date: 2023/6/02
 description: Узнайте, как переход от Google-таблиц к решению на Airtable улучшил организацию питания на курсах медитации.
 thumbnailUrl: https://res.cloudinary.com/preshetin/image/upload/v1688101501/preshetin.com/case-studies/meal-planning-1_vitsdr.png
@@ -9,7 +9,7 @@ author: Петр Решетин
 
 ![teaser](https://res.cloudinary.com/preshetin/image/upload/v1702906736/preshetin.com/case-studies/meals-and-purchasing/meals-and-purchasing-teaser_dx0pew.png)
 
-# Airtable в общепите: планирование меню и закупок
+# Low-Code в общепите: планирование меню и закупок
 
 ## О проекте
 
