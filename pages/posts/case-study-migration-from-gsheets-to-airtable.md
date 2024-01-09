@@ -55,9 +55,9 @@ I developed an extension that lives on top of Airtable that enables printing men
 
 To avoid non-organizers having to work with tables, I created separate applications for entering inventory and tracking purchase history.
 
-| ![app-1](https://res.cloudinary.com/preshetin/image/upload/v1702906742/preshetin.com/case-studies/meals-and-purchasing/retool-app-manager_vvbx7f.jpg) | ![app-2](https://res.cloudinary.com/preshetin/image/upload/v1702908531/preshetin.com/case-studies/meals-and-purchasing/retool-app-purchasing_fxmlju.jpg) |
-|:--:|:--:|
-| *A mobile app (built on Retool) for the course manager to enter inventory during inventory checks.* | *The second mobile app (built on Retool). The purchase history helps to get better prices for subsequent purchases.* |
+| ![app-1](https://res.cloudinary.com/preshetin/image/upload/v1704780694/preshetin.com/case-studies/meals-and-purchasing/retool-mobile-apps-meals-and-purchasing_bwqmk8.png) |
+|:--:|
+| *I created two mobile apps on Retool. The first app (on the left) is for the course manager to enter inventory during inventory checks. The second app (on the right) is for purchasing purposes, it enables entering purchase history.* |
 
 
 ## Results
