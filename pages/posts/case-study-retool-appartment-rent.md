@@ -17,6 +17,4 @@ I created admin panel using Retool low-code tool. It allows to analyse financial
 
 Data is taken from Postgres database.
 
-| ![Dashboard](https://res.cloudinary.com/preshetin/image/upload/v1700651530/preshetin.com/case-studies/werent-low-res_yg64z5.jpg)|
-|:--:| 
-| *Appartment rent dashboard built with Retool* |
+![Dashboard](https://res.cloudinary.com/preshetin/image/upload/v1700651530/preshetin.com/case-studies/werent-low-res_yg64z5.jpg)
