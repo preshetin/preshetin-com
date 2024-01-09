@@ -1,78 +1,71 @@
 ---
-title: "Low-Code в общепите: планирование меню и закупок"
+title: "Low-Code in Catering: Menu Planning and Purchasing"
 date: 2023/6/02
-description: Узнайте, как переход от Google-таблиц к решению на Airtable улучшил организацию питания на курсах медитации.
+description: Learn how transitioning from Google Sheets to Airtable improved the organization of meals at meditation courses
 thumbnailUrl: https://res.cloudinary.com/preshetin/image/upload/v1688101501/preshetin.com/case-studies/meal-planning-1_vitsdr.png
-tag: case study
-author: Петр Решетин
+tag: case-study, retool, retool-mobile, airtable, airtable-extension
+author: Peter Reshetin
 ---
 
 ![teaser](https://res.cloudinary.com/preshetin/image/upload/v1702906736/preshetin.com/case-studies/meals-and-purchasing/meals-and-purchasing-teaser_dx0pew.png)
 
-# Low-Code в общепите: планирование меню и закупок
+# Low-Code in Catering: Menu Planning and Purchasing
 
-## О проекте
+Tech stack & tools: Airtable, Retool Mobile, JavaScript, React.
 
-Перед вами стоит задача - обеспечить питанием сто человек в течение десяти дней. Как бы вы ее решили?
+## About
 
-В Беларуси курсы медитации Випассана проводятся с 2017 года. Курсы длятся обычно десять дней, в них принимает участие около ста человек. Такие курсы проходят несколько раз в году. Такие курсы проводятся на некоммерческой основе, организуются командой волонтеров.
+In Belarus, Vipassana meditation courses have been held since 2017. The courses usually last ten days and involve about one hundred participants. These courses are held several times a year and are organized by a team of volunteers on a non-profit basis.
 
-Питание на таких курсах для экономии расходов волонтеры обеспечивают сами. Составляют меню, рассчитывают количество продуктов для закупок. 
+To save costs, the volunteers provide the meals for these courses. They create menus and calculate the amount of groceries to purchase.
 
-В этой статье описывается процесс планирования меню и закупок.
+## Problem
 
-## Проблема
+Before implementing the Airtable and Retool solution, menu planning and purchasing calculations were done in Google Sheets.
 
-До внеднения решения на Airtable расчет меню и закупок проводился в Google-таблицах. Для каждого дня составлялось меню с нормами ингредиентов на одного человека. Зная общее количество людей, для каждого дня по формулам расчитывались количество продуктов на приготоваление блюда. Таким же образом можно было посчитать количество продуктов для закупки.
+Problems with the Google Sheets solution:
+- Inconvenient for making changes. When a dish needed to be changed, for example, replacing borscht with solyanka, the formulas in the Google Sheets had to be manually updated. This led to difficulties in the change process and errors.
+- Duplication of effort when entering inventory.
+- Purchase history was not preserved.
 
+## Solution
 
-| ![Google-таблица](https://res.cloudinary.com/preshetin/image/upload/v1702909096/preshetin.com/case-studies/meals-and-purchasing/meal-planning-0_2_medi06_a2utvm.png) |
-|:--:|
-| *Ранее расчет меню и закупок проводился в Google-таблицах* |
+My involvement in the project:
+1. Development of the Airtable database structure. I designed and implemented a solution consisting of interconnected tables.
+2. Development of an extension for Airtable. It allows printing menus for the chef and generating a shopping list.
+3. Development of mobile applications on Retool. The first application is for entering inventory at the course, and the second is for tracking purchases.
 
+### Airtable Database
 
-Проблемы решения через Google-таблицы:
-- Неудобно вносить изменения. При изменении блюда, - например, заменить борщ на рассольник, - приходилось вручную изменять формулы в Google-таблице. Это приводило к затруднению процесса внесения изменений и ошибкам
-- Дублирование усилий при внесении остатков.
-- Не сохраняется история закупок.
-
-## Решение
-
-Мой влад в проект:
-1. Разработка структуры базы Airtable. Я спроектировал и внедрил решение, состоящее из связанных между собой таблиц.
-2. Разработку расширения для Airtable. В нем можно распечатать меню для повара и получить список закупок.
-3. Разаботка мобильных приложений на Retool. Первое приложение для внесения остатков на курсе. Второе - для учета закупок.
-
-### Таблицы Airtable
-
-Разработанная структура таблиц позволяет легко вносить измения в меню.
+The developed table structure allows for easy changes to the menu.
 
 | ![airtable](https://res.cloudinary.com/preshetin/image/upload/v1702907563/preshetin.com/case-studies/meals-and-purchasing/meal-ingredients_yj0q5d.png) |
 |:--:|
-| *В таблице "Ингредиенты блюд" для каждого блюда вносятся нормы ингредиентов на человека (обычно в граммах)* |
+| *The "Meal Ingredients" table includes ingredient quantities per person for each dish (usually in grams)* |
 
-### Расширение Airtale
+### Airtable Extension
 
-Я разработал отдельное расширение для Airtable, в котором можно распечать меню для повара и сформировать список закупок.
+I developed an extension that lives on top of Airtable that enables printing menus for the chef and generating a shopping list.
 
 | ![airtable](https://res.cloudinary.com/preshetin/image/upload/v1702907564/preshetin.com/case-studies/meals-and-purchasing/extension_i3vmet.png) |
 |:--:|
-| *Таблица Airtable с блюдами меню для каждого дня (слева) и разработанное расширение, где можно распечатать меню для повара (справа)* |
+| *An Airtable table with daily menus (left) and the developed extension for printing menus for the chef (right)* |
 
-### Мобильные приложения на Retool
+### Retool Mobile Apps
 
-Чтобы не-организаторам не пришлось разбираться в таблицах, я сделал отдельные приложения для внесения остатков и для внесения истории закупок.
+To avoid non-organizers having to work with tables, I created separate applications for entering inventory and tracking purchase history.
 
 | ![app-1](https://res.cloudinary.com/preshetin/image/upload/v1702906742/preshetin.com/case-studies/meals-and-purchasing/retool-app-manager_vvbx7f.jpg) | ![app-2](https://res.cloudinary.com/preshetin/image/upload/v1702908531/preshetin.com/case-studies/meals-and-purchasing/retool-app-purchasing_fxmlju.jpg) |
 |:--:|:--:|
-| *Мобильное приложение (сделано на Retool) для менеджера курса, в котором вносятся остатки при проведении инвентаризации.* | *Второе мобильное приложение (сделано на Retool). История закупок позволяет получать лучше цены при последующих закупках.* |
+| *A mobile app (built on Retool) for the course manager to enter inventory during inventory checks.* | *The second mobile app (built on Retool). The purchase history helps to get better prices for subsequent purchases.* |
 
 
-## Результаты
+## Results
 
-- Организатор меньше времени тратит на планирование и закупки.
-- Уменьшение ошибок в планировании приводит к более качественному курсу.
+- Organizers spend less time on planning and purchasing.
+- Reduced planning errors result in a higher-quality course.
 
-## Свяжитесь со мной
 
-Буду рад обсудить ваш случай. Свяжитесь со мной по почте preshetin@gmail.com
+## Contact
+
+I would be happy to discuss your case. Contact me via email at preshetin@gmail.com
