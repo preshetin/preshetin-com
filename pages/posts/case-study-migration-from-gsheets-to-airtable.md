@@ -1,63 +1,71 @@
 ---
-title: "Case Study: Improving Meal and Purchasing Planning with Airtable and Custom Extension"
-date: 2023/6/01
-description: Learn how an Airtable and custom extension implementation improved meal planning for meditation courses, enhancing flexibility, streamlining processes, and reducing errors.
+title: "Low-Code in Catering: Menu Planning and Purchasing"
+date: 2023/6/02
+description: Learn how transitioning from Google Sheets to Airtable improved the organization of meals at meditation courses
 thumbnailUrl: https://res.cloudinary.com/preshetin/image/upload/v1688101501/preshetin.com/case-studies/meal-planning-1_vitsdr.png
-tag: case study
+tag: case-study, retool, retool-mobile, airtable, airtable-extension
 author: Peter Reshetin
 ---
 
-# Case Study: Improving Meal and Purchasing Planning with Airtable and Custom Extension
+![teaser](https://res.cloudinary.com/preshetin/image/upload/v1702906736/preshetin.com/case-studies/meals-and-purchasing/meals-and-purchasing-teaser_dx0pew.png)
 
-## Introduction
-This case study outlines a project that aimed to improve meal and purchasing planning for organizing meditation courses. The initial process relied on Google Sheets, which lacked flexibility and posed challenges when managing menus and making updates. The goal was to create a more efficient and error-free solution using Airtable and a custom extension.
+# Low-Code in Catering: Menu Planning and Purchasing
 
-| ![Google Sheets](https://res.cloudinary.com/preshetin/image/upload/v1688101501/preshetin.com/case-studies/meal-planning-0_2_medi06.png) |
+Tech stack & tools: Airtable, Retool Mobile, JavaScript, React.
+
+## About
+
+In Belarus, Vipassana meditation courses have been held since 2017. The courses usually last ten days and involve about one hundred participants. These courses are held several times a year and are organized by a team of volunteers on a non-profit basis.
+
+To save costs, the volunteers provide the meals for these courses. They create menus and calculate the amount of groceries to purchase.
+
+## Problem
+
+Before implementing the Airtable and Retool solution, menu planning and purchasing calculations were done in Google Sheets.
+
+Problems with the Google Sheets solution:
+- Inconvenient for making changes. When a dish needed to be changed, for example, replacing borscht with solyanka, the formulas in the Google Sheets had to be manually updated. This led to difficulties in the change process and errors.
+- Duplication of effort when entering inventory.
+- Purchase history was not preserved.
+
+## Solution
+
+My involvement in the project:
+1. Development of the Airtable database structure. I designed and implemented a solution consisting of interconnected tables.
+2. Development of an extension for Airtable. It allows printing menus for the chef and generating a shopping list.
+3. Development of mobile applications on Retool. The first application is for entering inventory at the course, and the second is for tracking purchases.
+
+### Airtable Database
+
+The developed table structure allows for easy changes to the menu.
+
+| ![airtable](https://res.cloudinary.com/preshetin/image/upload/v1702907563/preshetin.com/case-studies/meals-and-purchasing/meal-ingredients_yj0q5d.png) |
 |:--:|
-| *Google Sheets: Initial Solution* |
+| *The "Meal Ingredients" table includes ingredient quantities per person for each dish (usually in grams)* |
 
-## Client's Goal
-The client, in this case, refers to the project owner and their team, who organized meditation courses and required a streamlined system for meal and purchasing planning. The primary objective was to enhance the existing process by introducing a more flexible and error-resistant solution. The desired outcome was to simplify meal management, enable easy menu printing for cooks, and facilitate purchasing planning for course organizers.
+### Airtable Extension
 
-## Project Details
-### My Contribution
-My key contributions to the project included:
+I developed an extension that lives on top of Airtable that enables printing menus for the chef and generating a shopping list.
 
-1. Airtable Database Creation: Designed and implemented an Airtable database consisting of three interconnected tables, enabling efficient meal planning, menu printing, and purchase list generation.
-
-2. Custom Airtable Extension Development: Developed a custom Airtable extension that built upon the created database, serving as a user-friendly interface for printing menus and planning purchases.
-
-| ![Airtable and Extension](https://res.cloudinary.com/preshetin/image/upload/v1688101501/preshetin.com/case-studies/meal-planning-1_vitsdr.png) |
+| ![airtable](https://res.cloudinary.com/preshetin/image/upload/v1702907564/preshetin.com/case-studies/meals-and-purchasing/extension_i3vmet.png) |
 |:--:|
-| *Airtable and Extension: Enhanced Solution* |
+| *An Airtable table with daily menus (left) and the developed extension for printing menus for the chef (right)* |
 
-### Skills and Deliverables
-Skills and tools used:
+### Retool Mobile Apps
 
-- Database Design: Creating a structured and efficient Airtable database.
-- Google Sheets: Understanding the limitations and challenges of the existing system.
-- Airtable: Leveraging the database platform to enhance the meal and purchasing planning process.
-- Migration: Transferring data and functionalities from Google Sheets to Airtable.
-- TypeScript / React: Programming language used for developing the custom Airtable extension.
+To avoid non-organizers having to work with tables, I created separate applications for entering inventory and tracking purchase history.
 
-| ![Airtable Extension](https://res.cloudinary.com/preshetin/image/upload/v1688102131/preshetin.com/case-studies/extension-pic_e4wteu.png) |
-|:--:|
-| *Airtable Extension: Simplifying Menu Printing and Purchasing Planning* |
+| ![app-1](https://res.cloudinary.com/preshetin/image/upload/v1702906742/preshetin.com/case-studies/meals-and-purchasing/retool-app-manager_vvbx7f.jpg) | ![app-2](https://res.cloudinary.com/preshetin/image/upload/v1702908531/preshetin.com/case-studies/meals-and-purchasing/retool-app-purchasing_fxmlju.jpg) |
+|:--:|:--:|
+| *A mobile app (built on Retool) for the course manager to enter inventory during inventory checks.* | *The second mobile app (built on Retool). The purchase history helps to get better prices for subsequent purchases.* |
 
-## Project Success
-The project resulted in the following successes:
 
-1. Enhanced Flexibility: The Airtable database provided a flexible framework for managing meals and menus, reducing the need for formula tweaking and minimizing errors.
+## Results
 
-2. Streamlined Processes: The custom Airtable extension simplified menu printing and purchasing planning, benefiting both cooks and course organizers.
+- Organizers spend less time on planning and purchasing.
+- Reduced planning errors result in a higher-quality course.
 
-| ![Menu PDF](https://res.cloudinary.com/preshetin/image/upload/v1688383616/preshetin.com/case-studies/meal-pdf-image_or0cgy.png) |
-|:--:|
-| *Menu PDF: Improved Documentation for Cooks* |
-
-3. Error Reduction: Transitioning to Airtable and utilizing the custom extension significantly reduced the chances of human errors, improving accuracy in the planning process.
-
-In conclusion, the implementation of an Airtable database and a custom extension successfully improved meal and purchasing planning for meditation courses. The project resulted in enhanced flexibility, streamlined processes, and a notable reduction in errors.
 
 ## Contact
-For more information about this project or collaboration opportunities, please contact me at preshetin@gmail.com.
+
+I would be happy to discuss your case. Contact me via email at preshetin@gmail.com
