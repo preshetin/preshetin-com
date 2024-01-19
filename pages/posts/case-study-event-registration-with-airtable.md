@@ -1,5 +1,5 @@
 ---
-title: "Case Study: Event Registration with Airtable"
+title: "Case Study: Event Registration Powered by Airtable"
 date: 2024/01/02
 description: A case study showing how Airtable helps conducting offline events.
 thumbnailUrl: https://res.cloudinary.com/preshetin/image/upload/v1705661365/preshetin.com/airtable-one-day-course/teaser-1_fcwhl4.png
@@ -9,31 +9,31 @@ author: Peter Reshetin
 
 ![teaser](https://res.cloudinary.com/preshetin/image/upload/v1705661365/preshetin.com/airtable-one-day-course/teaser-1_fcwhl4.png)
 
-# Case Study: Event Registration with Airtable
+# Case Study: Event Registration Powered by Airtable
 
-This case study outline how I used Airtable to organize registration for an offline event, one day meditation courses.
+This case study outlines how I used Airtable to organize registration for an offline event, one day meditation courses.
 
 ## About
 
 In Belarus, one day meditation courses are conducted on a mothly basis since 2017. 
 
-Every month, an email campaing is sent via SendGrid. This campaign contains a link to Airtable. People apply for such course by fillling this Airtable form. 
+Every month, an email campaign is sent via SendGrid. This campaign contains a link to Airtable form. People apply for such course by filling this Airtable form. 
 
 ## Process
 
 Once a user fills the form, two things happen:
 1. The applicant receives confirmation email saying that application is received.
-2. An organizer receives actionable Slack message with application data. The application can be either approved or canceled without leaving Slack.
+2. The organizer receives actionable Slack message with application data. The application can be either approved or canceled without leaving Slack.
 
-The form itself is an interface, and the above actions as powered by automations.
+The form itself is Airtable interface, and the above actions as powered by Airtable automations.
 
 | ![slack actionable messages](https://res.cloudinary.com/preshetin/image/upload/v1705661365/preshetin.com/airtable-one-day-course/slack-actionable_message_m3esmd.png) | 
 |:--:| 
-| *Actionabe Slack message with application data is sent to organizer. Organizer can approve it or cancel it.* |
+| *Actionabe Slack message with application data is sent to the organizer. The Organizer can either approve or cancel it.* |
 
-Once an organizer verifies an email with route details is sent to the applicant. In case of cancelation the cancelation email is sent.
+Once an organizer verifies the application an email with route details is sent to the applicant. In case of cancelation the cancelation email is sent.
 
-One is that the event can be held in different places. Also, the contact peson can be different. To address this an *Email Pieces* table was created where a proper place address can be selected as well as contact person details.
+One thing to note about such meditation courses is that this event can be held in different places. Also, the contact peson can be different. To address this problem an *Email Pieces* table was created where a proper place address can be selected as well as contact person details.
 
 | ![email pieces](https://res.cloudinary.com/preshetin/image/upload/v1705661366/preshetin.com/airtable-one-day-course/email-pieces_vell0d.png) | 
 |:--:| 
