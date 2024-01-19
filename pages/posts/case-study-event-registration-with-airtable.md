@@ -11,21 +11,21 @@ author: Peter Reshetin
 
 # Case Study: Event Registration with Airtable
 
-Airtable components: database, automations, Slack actionable messages, Gmail API.
-
 This case study outline how I used Airtable to organize registration for an offline event, one day meditation courses.
 
 ## About
 
 In Belarus, one day meditation courses are conducted on a mothly basis since 2017. 
 
+Every month, an email campaing is sent via SendGrid. This campaign contains a link to Airtable. People apply for such course by fillling this Airtable form. 
+
 ## Process
 
-Every month, an email campaing is sent via SendGrid. This campaign contains a link to Airtble. People apply for such course by fillling this Airtable form. 
+Once a user fills the form, two things happen:
+1. The applicant receives confirmation email saying that application is received.
+2. An organizer receives actionable Slack message with application data. The application can be either approved or canceled without leaving Slack.
 
-Once a user fills the form, several things happen:
-1. A user receives confirmation email saying that application is received. This email is sent by Airtable automation.
-2. An organizer receives a Slack message with application data.
+The form itself is an interface, and the above actions as powered by automations.
 
 | ![slack actionable messages](https://res.cloudinary.com/preshetin/image/upload/v1705661365/preshetin.com/airtable-one-day-course/slack-actionable_message_m3esmd.png) | 
 |:--:| 
@@ -38,7 +38,6 @@ One is that the event can be held in different places. Also, the contact peson c
 | ![email pieces](https://res.cloudinary.com/preshetin/image/upload/v1705661366/preshetin.com/airtable-one-day-course/email-pieces_vell0d.png) | 
 |:--:| 
 | *The email with route details can be confgiruered so that place adrress can be selected as well as contact info details.* |
-
 
 Here is the full list of Airtable automations:
 - When new application is submitted, an email and Slack actionable message is sent
